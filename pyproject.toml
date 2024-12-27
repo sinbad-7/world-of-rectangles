@@ -1,0 +1,15 @@
+[project]
+name = "World Of Rectangles"
+version = "1.0.0"
+dependencies = [
+  "PyQt6",
+  "pytest",
+  "pylint",
+]
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = "src"
+addopts = [
+    "--import-mode=importlib",
+]
