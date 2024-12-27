@@ -6,11 +6,11 @@ from typing import Optional, List, Dict
 from PyQt6.QtCore import Qt, QPoint
 from PyQt6.QtGui import QPolygon
 
-from src.components.Link import Link
-from src.components.MoveableRectangle import MoveableRectangle
-from src.components.Port import Port
-from src.utils import Constants
-from src.utils.MathUtils import has_collision, is_point_in_circle
+from components.Link import Link
+from components.MoveableRectangle import MoveableRectangle
+from components.Port import Port
+from utils import Constants
+from utils.MathUtils import has_collision, is_point_in_circle
 
 
 class GameModel:

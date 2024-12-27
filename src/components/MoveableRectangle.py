@@ -8,8 +8,8 @@ from typing import List
 from PyQt6.QtCore import QRect
 from PyQt6.QtGui import QColor
 
-from src.components.Port import Port
-from src.utils import Constants
+from components.Port import Port
+from utils import Constants
 
 
 class MoveableRectangle(QRect):

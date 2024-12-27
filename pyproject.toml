@@ -1,5 +1,5 @@
 [project]
-name = "World Of Rectangles"
+name = "World-Of-Rectangles"
 version = "1.0.0"
 dependencies = [
   "PyQt6",

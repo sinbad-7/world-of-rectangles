@@ -6,11 +6,11 @@ from typing import Optional
 from PyQt6.QtWidgets import QWidget
 from PyQt6.QtGui import QPainter, QMouseEvent, QResizeEvent
 
-from src.components.Link import Link
-from src.components.MoveableRectangle import MoveableRectangle
-from src.models.GameModel import GameModel
-from src.utils import Constants, PainterUtils
-from src.utils.MathUtils import has_collision, is_point_in_circle
+from components.Link import Link
+from components.MoveableRectangle import MoveableRectangle
+from models.GameModel import GameModel
+from utils import Constants, PainterUtils
+from utils.MathUtils import has_collision, is_point_in_circle
 
 
 class GameWidget(QWidget):

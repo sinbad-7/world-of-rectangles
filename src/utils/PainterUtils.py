@@ -4,7 +4,7 @@ Utility functions to set various QPainter styles
 from PyQt6.QtCore import Qt
 from PyQt6.QtGui import QPainter, QColor, QPen
 
-from src.utils import Constants
+from utils import Constants
 
 
 def enable_game_field_painter_style(qp: QPainter) -> None:

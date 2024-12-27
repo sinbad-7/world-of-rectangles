@@ -4,8 +4,8 @@ Utility functions related to general calculations
 from typing import Optional, List
 from functools import lru_cache
 
-from src.components.MoveableRectangle import MoveableRectangle
-from src.utils import Constants
+from components.MoveableRectangle import MoveableRectangle
+from utils import Constants
 
 
 @lru_cache(maxsize=128)

@@ -5,8 +5,8 @@ import sys
 
 from PyQt6.QtWidgets import QApplication
 
-from src.models.GameModel import GameModel
-from src.widgets.GameWidget import GameWidget
+from models.GameModel import GameModel
+from widgets.GameWidget import GameWidget
 from utils.ExceptionUtils import except_hook
 
 
