@@ -112,10 +112,6 @@ class GameModel:
         temp_rectangle = MoveableRectangle(x_coord, y_coord, Constants.RECTANGLE_WIDTH_PX,
                                            Constants.RECTANGLE_HEIGHT_PX)
 
-        if not self.rectangles or len(self.rectangles) == 0:
-            self.rectangles.append(temp_rectangle)
-            return temp_rectangle
-
         if not has_collision(temp_rectangle, self.rectangles, self.field_width, self.field_height):
             self.rectangles.append(temp_rectangle)
             return temp_rectangle
