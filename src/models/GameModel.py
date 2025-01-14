@@ -85,7 +85,7 @@ class GameModel:
         self.hovered_port: Optional[Port] = \
             None if clone is None else Port.from_clone(clone.hovered_port)
 
-        self.selected_link: Optional[Link] = None if clone is None else (
+        self.selected_link: Optional[Link] = None if clone is None or clone.selected_link is None else (
             Link.from_clone(
                 clone.selected_link,
                 ports_map[clone.selected_link.src_id],
